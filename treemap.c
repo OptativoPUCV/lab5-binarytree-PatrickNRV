@@ -114,7 +114,8 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
             else
                 current = current->left;
         }
-}
+    return NULL;
+    }
 
 
 Pair * upperBound(TreeMap * tree, void* key) {
