@@ -56,16 +56,15 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
 
     if (current == NULL)
         current->pair = new->pair;
-
-
-    
 }
 
 
 
 TreeNode * minimum(TreeNode * x){
+    while(x->left != NULL) 
+        x = x->left;
 
-    return NULL;
+    return x;
 }
 
 
